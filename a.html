@@ -8,34 +8,34 @@
 	<div class= "form-container">
 		<h1>Currency Convertor</h1>
 		<br>
-		<form action="">
-			<select name="Currency rate">
+		<form onsubmit="return false">
+			<select name="Currency rate" class="con">
 				<option value="select" selected disabled>Select currency</option>
-				<option value="Dollar">Dollar</option>
-				<option value="Naira">Naira</option>
-				<option value="Pound">Pound</option>
-				<option value="Euro">Euro</option>
-				<option value="Yen">Yen</option>
-				<option value="Swiss Franc">Swiss Franc</option>
+				<option value="1">Dollar</option>
+				<option value="1">Naira</option>
+				<option value="1">Pound</option>
+				<option value="1">Euro</option>
+				<option value="1">Yen</option>
+				<option value="1">Swiss Franc</option>
 			</select>
 			<br>
-			<input type="number" placeholder="Enter amount">
+			<input type="number" class="forex-amount" placeholder="Enter amount">
 			<br>
 			<br>
-			<select name="Currency rate">
+			<select name="Currency rate" class="fx">
 				<option value="select" selected disabled>Currency rate</option>
 				<option value="Dollar">Dollar</option>
-				<option value="Naira">Naira</option>
-				<option value="Pound">Pound</option>
-				<option value="Euro">Euro</option>
-				<option value="Yen">Yen</option>
-				<option value="Swiss Franc">Swiss Franc</option>
+				<option value="2">Naira</option>
+				<option value="2">Pound</option>
+				<option value="2">Euro</option>
+				<option value="2">Yen</option>
+				<option value="2">Swiss Franc</option>
 			</select>
 			<br>
-			<input type="number"  placeholder="Amount result">
+			<p class="result"></p>
 			<br>
 			<br>
-			<button>
+			<button onclick="calc()">
 				Calculate
 			</button>
 
