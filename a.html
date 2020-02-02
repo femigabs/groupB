@@ -8,34 +8,35 @@
 	<div class= "form-container">
 		<h1>Currency Convertor</h1>
 		<br>
-		<form onsubmit="return false">
-			<select name="Currency rate" id="con">
-				<option value="select" selected disabled>Select currency</option>
-				<option value="1">Dollar</option>
-				<option value="1">Naira</option>
-				<option value="1">Pound</option>
-				<option value="1">Euro</option>
-				<option value="1">Yen</option>
-				<option value="1">Swiss Franc</option>
+		<form>
+			<select name="Currency rate" class="con" id="select" required >
+				<option value="USD">USD </option>
+				 <option value="EUR">EUR </option>
+				 <option value="GPB">GBP </option>
+				 <option value="AUD">AUD </option>
+				 <option value="JPY">JPY </option>
+				 <option value="NGN">NGN </option>
 			</select>
 			<br>
-			<input type="number" id="forex-amount" placeholder="Enter amount">
+			<input type="number" id="amount" class="fore-amount" placeholder="Enter amount" required>
 			<br>
 			<br>
-			<select name="Currency rate" id="fx">
-				<option value="select" selected disabled>Select currency</option>
-				<option value="1">Dollar</option>
-				<option value="362">Naira</option>
-				<option value="0.75766">Pound</option>
-				<option value="0.90177">Euro</option>
-				<option value="108.362">Yen</option>
-				<option value="0.96349">Swiss Franc</option>
+			<select name="Currency rate" class="fx" id="select1" required>
+				<option value="USD">USD </option>
+			      <option value="EUR">EUR </option>
+			      <option value="GPB">GBP </option>
+			      <option value="AUD">AUD </option>
+			      <option value="JPY">JPY </option>
+			      <option value="NGN">NGN </option>
 			</select>
 			<br>
-			<p id="result"></p>
+			<p class="result"></p>
 			<br>
 			<br>
-			<button onclick="calc()">Calculate</button>
+			<input type="text" id="result" value="">
+			<br>
+			<br>
+			<input type="button" id="green" value="calculate" onclick="calc()"></input>
 
 		</form>
 	</div>
