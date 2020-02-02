@@ -112,6 +112,6 @@ if (select.value === "USD" && select1.value === "USD")  {
     result.value = (amount * 0.0021);
   }
   else if (select.value === "NGN" && select1.value === "JPY")  {
-    result.value = (amount * 0,30);
+    result.value = (amount * 0.30);
   }
 }
