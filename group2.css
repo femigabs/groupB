@@ -1,7 +1,6 @@
 body{
-		background-image: url("http://s1.picswalls.com/wallpapers/2014/08/11/beautiful-money-wallpaper_090605496_192.jpg"); 
-	}
-
+		background-image: url("moneylogo.jpg");
+}
 	.form-container{
 		background-color: #f6f7f8;
 		width: 400px;
@@ -45,4 +44,5 @@ body{
 		font-size: 20px;
 		margin-top: 20px;
 		border-radius: 10px;
+		text-align: center;
 	}

@@ -1,5 +1,4 @@
-window.alert('Hey ! Thank You for using our Currency Converter App. Please note that all Currency'  + 'values here are constant values'
-	+'to continue Press the ok button. Thanks!!!')
+window.alert('Hey ! Thank You for using our Currency Converter App. Please note that all Currency values here are constant values to continue Press the ok button. Thanks!!!')
 
 function calc() {
   let amount = parseFloat(document.getElementById("amount").value);
