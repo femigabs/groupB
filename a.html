@@ -9,7 +9,7 @@
 		<h1>Currency Convertor</h1>
 		<br>
 		<form onsubmit="return false">
-			<select name="Currency rate" class="con">
+			<select name="Currency rate" id="con">
 				<option value="select" selected disabled>Select currency</option>
 				<option value="1">Dollar</option>
 				<option value="1">Naira</option>
@@ -19,28 +19,27 @@
 				<option value="1">Swiss Franc</option>
 			</select>
 			<br>
-			<input type="number" class="forex-amount" placeholder="Enter amount">
+			<input type="number" id="forex-amount" placeholder="Enter amount">
 			<br>
 			<br>
-			<select name="Currency rate" class="fx">
-				<option value="select" selected disabled>Currency rate</option>
-				<option value="Dollar">Dollar</option>
-				<option value="2">Naira</option>
-				<option value="2">Pound</option>
-				<option value="2">Euro</option>
-				<option value="2">Yen</option>
-				<option value="2">Swiss Franc</option>
+			<select name="Currency rate" id="fx">
+				<option value="select" selected disabled>Select currency</option>
+				<option value="1">Dollar</option>
+				<option value="362">Naira</option>
+				<option value="0.75766">Pound</option>
+				<option value="0.90177">Euro</option>
+				<option value="108.362">Yen</option>
+				<option value="0.96349">Swiss Franc</option>
 			</select>
 			<br>
-			<p class="result"></p>
+			<p id="result"></p>
 			<br>
 			<br>
-			<button onclick="calc()">
-				Calculate
-			</button>
+			<button onclick="calc()">Calculate</button>
 
 		</form>
 	</div>
 
 </body>
+<script type="text/javascript" src="curr.js"></script>
 </html>
