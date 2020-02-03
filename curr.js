@@ -1,4 +1,4 @@
-window.alert('Hey ! Thank You for using our Currency Converter App. Please note that all Currency values here are constant values to continue Press the ok button. Thanks!!!')
+window.alert('Hey ! Thank You for using our Currency Converter App. Please note that all Currency values here are constant values. To continue, Press the ok button. Thanks!!!')
 
 function calc() {
   let amount = parseFloat(document.getElementById("amount").value);
@@ -57,7 +57,7 @@ if (select.value === "USD" && select1.value === "USD")  {
     result.value = (amount * 143.11);
   }
   else if (select.value === "GPB" && select1.value === "NGN")  {
-    result.value = (amount * 477,35);
+    result.value = (amount * 477.35);
   }
   else if (select.value === "AUD" && select1.value === "AUD")  {
     result.value = (amount * 1);
